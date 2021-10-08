@@ -40,6 +40,14 @@ function App() {
         <input type="text" className="coin-input" placeholder="Search a currency" onChange={handleChange} />
       </form>
     </div>
+    <div className="header">
+      <h1 className="name">Name</h1>
+      <h1 className="symbol">Symbol</h1>
+      <h1 className="price">Price</h1>
+      <h1 className="mkt-cap">Mkt Cap</h1>
+      <h1 className="percentage">% Change</h1>
+      <h1 className="volume">Volume</h1>
+    </div>
     {filteredCoins.map(coin =>{
       return (
         <Coin 

@@ -43,3 +43,11 @@
 .coin-input::placeholder{
   color: #e2e2e2;
 }
+
+.header {
+  min-width: 900px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
